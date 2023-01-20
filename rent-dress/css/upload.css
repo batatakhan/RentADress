@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Dela+Gothic+One&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Montserrat:wght@800&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    height: 15vh;
+    background: white;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.street-fashion {
+    position: relative;
+    text-align: center;
+}
+
+.street-fashion img {
+    width: 100%;
+    position: relative;
+}
+
+.logo-contain img {
+
+    margin-left: 50px;
+    vertical-align: top;
+    margin-top: 1rem;
+}
+
+.des1 {
+    text-decoration: none;
+    color: black;
+}
+
+#mylogo {
+    padding-top: 10px;
+    height: 3.5rem;
+    width: 3rem;
+    vertical-align: middle;
+}
+
+.logo {
+    margin-left: 115px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1.5rem;
+}
+
+.logo h4 {
+    font-size: 24px;
+}
+
+.nav {
+    /* align-items: center; */
+    float: right;
+    display: flex;
+}
+
+nav ul {
+    float: right;
+    /* align-items: right; */
+    /* padding-left: 45%; */
+    display: flex;
+}
+
+
+
+
+
+nav ul li {
+    padding: 0px 20px;
+    list-style: none;
+    margin-top: -1.5rem;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    animation: glow 2s ease-in-out infinite alternate;
+    opacity: 1;
+    color: rgb(177, 63, 81);
+    font-size: larger;
+}
+
+#btnn {
+    background-color: rgb(235, 130, 145);
+    padding: 12px 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btnn:hover {
+    background-color: rgb(177, 63, 81);
+}
+
+#cartt {
+    color: black;
+}
+
+nav form {
+    margin-top: -1.5rem;
+}
+
+#cart {
+    width: 30px;
+    height: 20px;
+}
+
+.star {
+    color: rgb(227, 227, 115);
+}
+
+.shopping-cart {
+    padding: 0px 20px;
+    margin-top: -1.5rem;
+}
+
+nav form button img {
+
+    width: 5px;
+    height: 10px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 30%;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #555;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #f1e1e1;
+    display: block;
+    padding: 5px 10px;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 100px auto;
+}
+
+th,
+td {
+    height: 50px;
+    vertical-align: center;
+    border: 1px solid black;
+}
+#upload-btn{
+    margin-top: 1rem;
+    margin-left: 7rem;
+}

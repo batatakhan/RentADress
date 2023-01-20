@@ -1,0 +1,263 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo-contain img {
+
+    margin-left: 50px;
+    vertical-align: top;
+    margin-top: 1rem;
+}
+
+
+header {
+    height: 15vh;
+    background: whitesmoke;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#mylogo {
+    padding-top: 10px;
+    height: 3.5rem;
+    width: 3rem;
+    vertical-align: middle;
+}
+
+.logo {
+    margin-left: 115px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -1.5rem;
+}
+
+.logo h4 {
+    font-size: 24px;
+}
+
+.nav {
+    /* align-items: center; */
+    float: right;
+    display: flex;
+}
+
+nav ul {
+    float: right;
+    /* align-items: right; */
+    /* padding-left: 45%; */
+    display: flex;
+}
+
+
+
+
+
+nav ul li {
+    padding: 0px 20px;
+    list-style: none;
+    margin-top: -1.5rem;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    animation: glow 2s ease-in-out infinite alternate;
+    opacity: 1;
+    color: rgb(177, 63, 81);
+    font-size: larger;
+}
+
+#btnn {
+    background-color: rgb(235, 130, 145);
+    padding: 12px 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btnn:hover {
+    background-color: rgb(177, 63, 81);
+}
+
+#cartt {
+    color: black;
+}
+
+nav form {
+    margin-top: -1.5rem;
+}
+
+#cart {
+    width: 30px;
+    height: 20px;
+}
+
+.shopping-cart {
+    padding: 0px 20px;
+    margin-top: -1.5rem;
+}
+
+nav form button img {
+
+    width: 5px;
+    height: 10px;
+}
+
+.log-in-container {
+    width: 100%;
+    height: 50rem;
+    font-family: sans-serif;
+    background-color: #edced7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-in-container-2 {
+    width: 100%;
+    height: 50rem;
+    font-family: sans-serif;
+    background-color: #edced7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log_in_card {
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+    perspective: 1000px;
+}
+
+.log_in_card-2 {
+    width: 350px;
+    height: 50rem;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.26);
+    perspective: 1000px;
+}
+
+.inner-box-login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.login-card-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(125, 0, 44, 0.8), rgba(125, 0, 44, 0.8)), url("../london-street-style.jpg.webp");
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+
+.login-card-front-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(125, 0, 44, 0.8), rgba(125, 0, 44, 0.8)), url("../london-street-style.jpg.webp");
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+.log_in_card h2 {
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.log-in-input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: white;
+
+}
+
+.inner-box-login ::placeholder {
+    color: white;
+    font-size: 12px;
+}
+
+.log-in-btn,
+.log-in-submit-btn {
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    margin: 35px 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.log-in-submit-btn {
+    position: relative;
+}
+
+.log-in-submit-btn::after {
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+
+.log-in-btn {
+    margin-top: 70px;
+}
+
+.log-in-card a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.inner-box-login span {
+    font-size: 13px;
+    margin-left: 10px;
+}
+.pink {
+    background-color: #edced7;
+}
